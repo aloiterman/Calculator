@@ -29,7 +29,7 @@ public class Calculator
         Scanner query1 = new Scanner(System.in);
         request=query1.nextInt();
    do{
-        while(request>0){
+       
        switch(request)
         {
            case 1: 
@@ -107,7 +107,7 @@ public class Calculator
                System.out.println("That selection is invalid. You may only select from 0-7.");
         } 
    }
-    }while(request==0);
+    }while(request>0);
    System.out.println("The calculator is shutting down.");
    }
     /**
